@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+    int a, b;
+cout<< "Enter two numbers to be swapped : ";
+cin>> a >> b;
+cout<<"Values before swap :\n";
+cout<<"a = "<<a;
+cout<<endl;
+cout<<"b = "<<b;
+	 b = a + b;
+	 a = b - a;
+	 b = b - a;
+cout<<endl;
+cout<< "The two numbers after swapping become :" <<endl;
+cout<< "Value of a : " << a <<endl;
+cout<< "Value of b : " << b <<endl;
+getch();
+}
