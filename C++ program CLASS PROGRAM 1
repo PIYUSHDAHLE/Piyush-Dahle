@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+class info
+{
+public:
+char* name;
+char* from;
+char* branch;
+char* h;
+};
+int main()
+{
+clrscr();
+info obj;
+obj.name="PIYUSH DAHLE";
+obj.from="BALAGHAT";
+obj.branch="COMPUTER SCIENCE AND SCIENCE";
+obj.h="JAWAHAR";
+cout<<"NAME : "<<obj.name<<"\n";
+cout<<"FROM : "<<obj.from<<"\n";
+cout<<"BRANCH : "<<obj.branch<<"\n";
+cout<<"HOSTEL : "<<obj.h<<"\n";
+getch();
+}
