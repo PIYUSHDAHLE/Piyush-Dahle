@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+int main() {
+ clrscr();
+    float number, sum = 0.0;
+    
+    while (true)
+    {
+        cout << "Enter a number: ";
+        cin >> number;
+        
+        if (number != 0.0)
+        {
+            sum += number;
+        }
+        else
+        {
+            break;
+        }
+    }
+    cout << "Sum = " << sum;
+    getch();
+}
