@@ -1,0 +1,23 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+class MyClass {       
+  public:             
+    void myMethod() { 
+       int i, j;
+    for(i=0; i<6; i++)
+    {
+        for(j=0; j<=i; j++)
+            cout<<"* ";
+        cout<<endl;
+    }
+    cout<<endl;
+    }
+};
+
+int main() {
+  MyClass myObj;    
+  myObj.myMethod(); 
+  return 0;
+}
