@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+class even_number
+{
+
+	private:
+int rows,sp,p,space,i;
+public :
+   int input();
+};
+
+ inline even_number::input()
+ {
+ 	cout<<"Enter the number of rows"<<endl;
+    cin>>rows;
+{
+	
+	for(i=1; i<=rows; i++)
+	{
+	for(sp=i; sp<rows; sp++)
+	{
+		cout<<" ";
+	}
+	for(p=1;p<=(2*i-1);p++)
+	{
+	
+cout<<"*";		
+	}
+	cout<<endl;
+}
+}
+}
+
+int main()
+{
+	
+even_number obj;
+obj.input();
+
+}
